@@ -40,6 +40,17 @@ hr {
     width: 100%;
     color: crimson;
 }
+#circles {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 700px;
+}
+#phone-screens {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
 h1 {
     color: rgb(238, 85, 55);
     font-family: 'Open Sans', sans-serif;
@@ -77,6 +88,16 @@ a {
 
 .jumbotron-left {
     text-align: center;
+}
+#sec-2 {
+    background-image: url(Images/fons.png);
+}
+img.rounded {
+        border-radius: 50%;
+        height: 70px;
+}
+p.headlines {
+    display: inline-block;
 }
 
 
