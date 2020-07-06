@@ -2,7 +2,23 @@
 
 
 
+/* Aminations */
+.elementToFadeIn {
+    width:200px;
+    height: 200px;
+    -webkit-animation: fadein 6s linear forwards;
+    animation: fadein 6s linear forwards;
+}
 
+@-webkit-keyframes fadein {
+  0% { opacity: 0; }
+  50%,100% { opacity: 1; }
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  50%,100% { opacity: 1; }
+}
 .navbar {
     font-family: 'Open Sans', sans-serif;
 
@@ -17,7 +33,11 @@
 color: rgb(238, 85, 55);
 font-family: 'Open Sans', sans-serif;
 }
-
+hr {
+    height: 1px;
+    width: 100%;
+    color: crimson;
+}
 h1 {
     color: rgb(238, 85, 55);
     font-family: 'Open Sans', sans-serif;
