@@ -106,7 +106,8 @@ a {
     text-align: center;
 }
 
-#sec-2 {
+#sec-2,
+#sec-4 {
     background-image: url(Images/fons.png);
 }
 
@@ -122,4 +123,10 @@ p.headlines {
 img.rounded-circle {
     margin-top: 20px;
     margin-bottom: 5px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    /* background-color: orangered; */
 }
